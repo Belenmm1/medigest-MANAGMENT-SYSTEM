@@ -28,7 +28,7 @@
 
 const API_BASE = (typeof import_meta_env !== 'undefined' && import_meta_env?.VITE_API_URL)
   || window.MG_API_BASE
-  || 'http://localhost:3000';
+  || 'https://medigest-backend-production.up.railway.app';
 
 const WS_BASE = API_BASE.replace(/^http/, 'ws');
 
